@@ -42,3 +42,8 @@ FROM trips;
 SELECT *
 FROM riders
 WHERE total_trips < 500;
+
+-- Task 9
+SELECT COUNT(*)
+FROM cars
+WHERE status = 'active';
