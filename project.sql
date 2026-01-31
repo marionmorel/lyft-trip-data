@@ -20,3 +20,9 @@ SELECT *
 FROM trips
 LEFT JOIN riders
     ON trips.rider_id = riders.id;
+
+-- Task 5
+SELECT *
+FROM trips
+INNER JOIN cars
+    ON trips.car_id = cars.id;
