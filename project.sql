@@ -14,3 +14,9 @@ Primary key of cars: id */
 SELECT *
 FROM riders
 CROSS JOIN cars;
+
+-- Task 4
+SELECT *
+FROM trips
+LEFT JOIN riders
+    ON trips.rider_id = riders.id;
