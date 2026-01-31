@@ -6,7 +6,9 @@ Let’s practice what we learned about joins by combining rows from different ta
 Suppose you are a Data Analyst at Lyft, a ride-sharing platform. For a project, you were given three tables:
 
 <code>trips</code>: trips information
+
 <code>riders</code>: user data
+
 <code>cars</code>: autonomous cars
 
 Have fun!
