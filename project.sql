@@ -47,3 +47,9 @@ WHERE total_trips < 500;
 SELECT COUNT(*)
 FROM cars
 WHERE status = 'active';
+
+-- Task 10
+SELECT *
+FROM cars
+ORDER BY trips_completed DESC
+LIMIT 2;
