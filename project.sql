@@ -37,3 +37,8 @@ FROM riders2;
 -- Task 7
 SELECT AVG(cost)
 FROM trips;
+
+-- Task 8
+SELECT *
+FROM riders
+WHERE total_trips < 500;
