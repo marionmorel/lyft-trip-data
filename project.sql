@@ -33,3 +33,7 @@ FROM riders
 UNION
 SELECT *
 FROM riders2;
+
+-- Task 7
+SELECT AVG(cost)
+FROM trips;
