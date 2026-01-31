@@ -26,3 +26,10 @@ SELECT *
 FROM trips
 INNER JOIN cars
     ON trips.car_id = cars.id;
+
+-- Task 6
+SELECT *
+FROM riders
+UNION
+SELECT *
+FROM riders2;
