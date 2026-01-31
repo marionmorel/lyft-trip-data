@@ -9,3 +9,8 @@ SELECT * FROM cars;
 /* Primary key of trips: id
 Primary key of riders: id
 Primary key of cars: id */
+
+-- Task 3
+SELECT *
+FROM riders
+CROSS JOIN cars;
